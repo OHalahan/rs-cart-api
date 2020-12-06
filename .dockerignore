@@ -1,0 +1,14 @@
+# node_modules and artifacts are not required at runtime since everything will be inside docker image
+/node_modules
+/dist
+
+# tests are not needed at runtime
+/test
+*.spec.ts
+
+#Documentation is not needed
+README.md
+
+#Linters is not required at runtime
+.prettierrc
+.eslintrc.js
